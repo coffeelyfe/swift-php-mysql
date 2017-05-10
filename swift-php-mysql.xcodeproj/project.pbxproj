@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		E13944201EC0DDCA007EEFFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E139441F1EC0DDCA007EEFFF /* AppDelegate.swift */; };
-		E13944221EC0DDCA007EEFFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13944211EC0DDCA007EEFFF /* ViewController.swift */; };
+		E13944221EC0DDCA007EEFFF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13944211EC0DDCA007EEFFF /* MainViewController.swift */; };
 		E13944251EC0DDCA007EEFFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E13944231EC0DDCA007EEFFF /* Main.storyboard */; };
 		E13944281EC0DDCA007EEFFF /* swift_php_mysql.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E13944261EC0DDCA007EEFFF /* swift_php_mysql.xcdatamodeld */; };
 		E139442A1EC0DDCA007EEFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E13944291EC0DDCA007EEFFF /* Assets.xcassets */; };
 		E139442D1EC0DDCA007EEFFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E139442B1EC0DDCA007EEFFF /* LaunchScreen.storyboard */; };
+		E13944371EC218C9007EEFFF /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13944361EC218C9007EEFFF /* BaseView.swift */; };
+		E139443A1EC21A36007EEFFF /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13944391EC21A36007EEFFF /* mainView.swift */; };
+		E139443F1EC21B03007EEFFF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E139443E1EC21B03007EEFFF /* Extensions.swift */; };
+		E13A7BBB1EC2210A00A1E065 /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13A7BBA1EC2210A00A1E065 /* FavoritesTableViewController.swift */; };
+		E13A7BBE1EC224DB00A1E065 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13A7BBD1EC224DB00A1E065 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E139441C1EC0DDCA007EEFFF /* swift-php-mysql.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-php-mysql.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E139441F1EC0DDCA007EEFFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E13944211EC0DDCA007EEFFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E13944211EC0DDCA007EEFFF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E13944241EC0DDCA007EEFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E13944271EC0DDCA007EEFFF /* swift_php_mysql.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = swift_php_mysql.xcdatamodel; sourceTree = "<group>"; };
 		E13944291EC0DDCA007EEFFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E139442C1EC0DDCA007EEFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E139442E1EC0DDCA007EEFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E13944361EC218C9007EEFFF /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		E13944391EC21A36007EEFFF /* mainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
+		E139443E1EC21B03007EEFFF /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E13A7BBA1EC2210A00A1E065 /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		E13A7BBD1EC224DB00A1E065 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +66,11 @@
 		E139441E1EC0DDCA007EEFFF /* swift-php-mysql */ = {
 			isa = PBXGroup;
 			children = (
+				E13A7BBC1EC224C500A1E065 /* API */,
+				E139443C1EC21AD8007EEFFF /* Extensions */,
+				E13944351EC21881007EEFFF /* views */,
+				E13944341EC2186A007EEFFF /* controllers */,
 				E139441F1EC0DDCA007EEFFF /* AppDelegate.swift */,
-				E13944211EC0DDCA007EEFFF /* ViewController.swift */,
 				E13944231EC0DDCA007EEFFF /* Main.storyboard */,
 				E13944291EC0DDCA007EEFFF /* Assets.xcassets */,
 				E139442B1EC0DDCA007EEFFF /* LaunchScreen.storyboard */,
@@ -65,6 +78,56 @@
 				E13944261EC0DDCA007EEFFF /* swift_php_mysql.xcdatamodeld */,
 			);
 			path = "swift-php-mysql";
+			sourceTree = "<group>";
+		};
+		E13944341EC2186A007EEFFF /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E139443B1EC21A77007EEFFF /* main */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		E13944351EC21881007EEFFF /* views */ = {
+			isa = PBXGroup;
+			children = (
+				E13944381EC21A11007EEFFF /* main */,
+				E13944361EC218C9007EEFFF /* BaseView.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		E13944381EC21A11007EEFFF /* main */ = {
+			isa = PBXGroup;
+			children = (
+				E13944391EC21A36007EEFFF /* mainView.swift */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		E139443B1EC21A77007EEFFF /* main */ = {
+			isa = PBXGroup;
+			children = (
+				E13944211EC0DDCA007EEFFF /* MainViewController.swift */,
+				E13A7BBA1EC2210A00A1E065 /* FavoritesTableViewController.swift */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		E139443C1EC21AD8007EEFFF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E139443E1EC21B03007EEFFF /* Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		E13A7BBC1EC224C500A1E065 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E13A7BBD1EC224DB00A1E065 /* API.swift */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +203,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E13944371EC218C9007EEFFF /* BaseView.swift in Sources */,
+				E139443F1EC21B03007EEFFF /* Extensions.swift in Sources */,
 				E13944281EC0DDCA007EEFFF /* swift_php_mysql.xcdatamodeld in Sources */,
-				E13944221EC0DDCA007EEFFF /* ViewController.swift in Sources */,
+				E13944221EC0DDCA007EEFFF /* MainViewController.swift in Sources */,
+				E139443A1EC21A36007EEFFF /* mainView.swift in Sources */,
+				E13A7BBB1EC2210A00A1E065 /* FavoritesTableViewController.swift in Sources */,
+				E13A7BBE1EC224DB00A1E065 /* API.swift in Sources */,
 				E13944201EC0DDCA007EEFFF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +374,7 @@
 				E13944331EC0DDCA007EEFFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

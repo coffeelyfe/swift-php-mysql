@@ -13,10 +13,41 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var tabbarController = UITabBarController()
+    
+    var mainVC = MainViewController()
+    var favoritesTableVC = FavoritesTableViewController()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // sets title for vc's
+        mainVC.title = "main"
+        favoritesTableVC.title = "favorites"
+        
+        // creates navigation controllers where each of the view controllers are implemented.
+        let mainNavCtrl = UINavigationController(rootViewController: mainVC)
+        mainNavCtrl.tabBarItem = UITabBarItem(title: mainVC.title, image: nil, selectedImage: nil)
+        
+        let favoritesNavCtrl = UINavigationController(rootViewController: favoritesTableVC)
+        favoritesNavCtrl.tabBarItem = UITabBarItem(title: favoritesTableVC.title, image: nil, selectedImage: nil)
+        
+        // stack up those navigationcontrollers
+        let controllers = [mainNavCtrl,favoritesNavCtrl]
+        
+        //set tabbar viewcontrollers.
+        tabbarController.viewControllers = controllers
+        
+        //fix the visuals for tabbar
+        tabbarController.tabBar.barTintColor = UIColor.rgb(colorLiteralRed: 35, green: 34, blue: 28)
+        
+        //sets frame for app window and make sure its visible.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+       
+        // and last, set the windows rootviewcontroller to the tabbarcontroller.
+        window?.rootViewController = self.tabbarController
+        
+        
         return true
     }
 
