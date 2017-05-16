@@ -21,7 +21,7 @@ As this is a test project I used XAMMP for server and database.
 I assume you already know your way around xcode and xammp.
 
 
-###### step 1 - setup database
+#### step 1 - setup database
 Go to phpmyadmin and create a new database called "phpmysql"
 
 CREATE TABLE Pokemons (
@@ -32,15 +32,18 @@ CREATE TABLE Pokemons (
 
 
 
+you should also insert a few pokemons. I used *Postman* for this.
 
+<<<<<<< HEAD
 you should also insert a few pokemons, i used the *postman* to do this.
+=======
+>>>>>>> 26b164eeb7281ff2d194c28139f32df1658dd832
 
-
-###### step 2 - setup PHP
+#### step 2 - setup PHP
 
 Coming soon
 
 
-###### step 3 - setup Xcode / swift 
+#### step 3 - setup Xcode / swift 
 
 Coming soon
