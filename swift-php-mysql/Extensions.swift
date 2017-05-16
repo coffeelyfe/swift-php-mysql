@@ -31,3 +31,11 @@ extension UIView{
         
     }
 }
+
+extension Array  {
+    var indexedDictionary: [Int: Element] {
+        var result: [Int: Element] = [:]
+        enumerated().forEach({ result[$0.offset] = $0.element })
+        return result
+    }
+}

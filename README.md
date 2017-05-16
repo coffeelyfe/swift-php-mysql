@@ -5,7 +5,7 @@
 
 This project can be used as a basic foundation for an iOS app 
 
-** works on Xcode 8.3.2 and Swift 3.1 **
+**works on Xcode 8.3.2 and Swift 3.1**
 
 this project includes 
     - iOS app written in *swift*
@@ -33,7 +33,7 @@ CREATE TABLE Pokemons (
 
 
 
-you should also insert a few pokemons for the lolz, my favorites are magmar and abra.
+you should also insert a few pokemons, i used the *postman* to do this.
 
 
 ###### step 2 - setup PHP

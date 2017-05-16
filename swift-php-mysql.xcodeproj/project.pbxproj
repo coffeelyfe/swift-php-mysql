@@ -18,6 +18,7 @@
 		E139443F1EC21B03007EEFFF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E139443E1EC21B03007EEFFF /* Extensions.swift */; };
 		E13A7BBB1EC2210A00A1E065 /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13A7BBA1EC2210A00A1E065 /* FavoritesTableViewController.swift */; };
 		E13A7BBE1EC224DB00A1E065 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13A7BBD1EC224DB00A1E065 /* API.swift */; };
+		E1FDA6BB1ECA0D3300B1E388 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDA6BA1ECA0D3300B1E388 /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E139443E1EC21B03007EEFFF /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E13A7BBA1EC2210A00A1E065 /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
 		E13A7BBD1EC224DB00A1E065 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		E1FDA6BA1ECA0D3300B1E388 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				E139442B1EC0DDCA007EEFFF /* LaunchScreen.storyboard */,
 				E139442E1EC0DDCA007EEFFF /* Info.plist */,
 				E13944261EC0DDCA007EEFFF /* swift_php_mysql.xcdatamodeld */,
+				E1FDA6BA1ECA0D3300B1E388 /* Pokemon.swift */,
 			);
 			path = "swift-php-mysql";
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				E13944281EC0DDCA007EEFFF /* swift_php_mysql.xcdatamodeld in Sources */,
 				E13944221EC0DDCA007EEFFF /* MainViewController.swift in Sources */,
 				E139443A1EC21A36007EEFFF /* mainView.swift in Sources */,
+				E1FDA6BB1ECA0D3300B1E388 /* Pokemon.swift in Sources */,
 				E13A7BBB1EC2210A00A1E065 /* FavoritesTableViewController.swift in Sources */,
 				E13A7BBE1EC224DB00A1E065 /* API.swift in Sources */,
 				E13944201EC0DDCA007EEFFF /* AppDelegate.swift in Sources */,
